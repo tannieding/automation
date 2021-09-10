@@ -6,12 +6,12 @@
    <elementGuidId>193cfba7-8bb5-414b-8595-74af09e5218a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='wp-submit']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#wp-submit</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='wp-submit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

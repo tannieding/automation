@@ -6,12 +6,12 @@
    <elementGuidId>27224476-8f69-4faa-bcd9-78feded31c79</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='page']/div/div/div/div[2]/span/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.readmore</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page']/div/div/div/div[2]/span/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

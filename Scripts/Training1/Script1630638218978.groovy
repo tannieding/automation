@@ -42,19 +42,33 @@ import org.openqa.selenium.Keys as Keys
 //
 //WebUI.closeBrowser()
 //
+'1. Open browser'
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://kiemthutudong.com/blog/')
+'2. Naigation to URL'
+WebUI.navigateToUrl('http://demo.guru99.com/v4/')
 
-WebUI.click(findTestObject('Object Repository/Page_Automation Blog  Quality is not an act_8c22d4/a_Create New AccountCreate New Account'))
+'3. Input to UserID'
+WebUI.setText(findTestObject('Object Repository/Page_Guru99 Bank Home Page/input_UserID_uid'), 'tannie')
 
-WebUI.setText(findTestObject('Object Repository/Page_Registration Form  Automation Blog  WordPress/input_Username_user_login'), 
-    'tannie')
+'4. Input to Password'
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Guru99 Bank Home Page/input_Password_password'), 'aeHFOx8jV/A=')
 
-WebUI.setText(findTestObject('Object Repository/Page_Registration Form  Automation Blog  WordPress/input_Email_user_email'), 
-    'tannie@test.com')
+'5. Delay 5s'
+WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Page_Registration Form  Automation Blog  WordPress/input_Email_wp-submit'))
+'6. take screenshot'
+WebUI.takeScreenshot()
 
+'7. Login'
+WebUI.click(findTestObject('Object Repository/Page_Guru99 Bank Home Page/input_Password_btnLogin'))
+
+'8. Delay 5s'
+WebUI.delay(5)
+
+'9. take screenshot'
+WebUI.takeScreenshot()
+
+'10. Close browser'
 WebUI.closeBrowser()
 
